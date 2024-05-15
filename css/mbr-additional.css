@@ -1566,13 +1566,19 @@ a:hover {
 }
 .cid-tfwmgSK1xV .logo-wrap {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: flex-start;
   width: 20%;
 }
 @media (max-width: 991px) {
   .cid-tfwmgSK1xV .logo-wrap {
     order: 2;
+  }
+  .cid-tfwmgSK1xV .logo-wrap {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    width: 20%;
   }
 }
 @media (max-width: 575px) {
@@ -1589,7 +1595,7 @@ a:hover {
 }
 .cid-tfwmgSK1xV .btn-wrap {
   width: 40%;
-  padding-right: 80px;
+  padding-right: 0px;
 }
 @media (max-width: 991px) {
   .cid-tfwmgSK1xV .btn-wrap {
@@ -1623,6 +1629,7 @@ a:hover {
   .cid-tfwmgSK1xV .btn-wrap .mbr-section-btn .btn {
     padding: 20px 15px !important;
   }
+  
 }
 .cid-tfwmgSK1xV .btn-wrap .mbr-section-btn .btn::after {
   content: '';
@@ -1875,9 +1882,6 @@ a:hover {
 }
 .cid-tfwmi2c9NS {
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-image: url("../images/amoura.jpg");
 }
 .cid-tfwmi2c9NS .mbr-overlay {
   background-color: #000000;
@@ -1918,8 +1922,8 @@ a:hover {
   margin-top: 5px;
 }
 .cid-tfwoItJy6f {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: #a58a8b;
 }
 .cid-tfwoItJy6f .mbr-fallback-image.disabled {
@@ -1993,8 +1997,8 @@ a:hover {
   }
 }
 .cid-tfwphIEvr2 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3em;
+  padding-bottom: 3rem;
   background-color: #f0e4e5;
 }
 .cid-tfwphIEvr2 .row {
@@ -2098,6 +2102,10 @@ a:hover {
   top: 0;
 }
 @media (max-width: 991px) {
+  .cid-tfwpZdwU1g {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
   .cid-tfwpZdwU1g .row {
     flex-direction: column;
   }
@@ -2114,6 +2122,7 @@ a:hover {
 }
 @media (max-width: 991px) {
   .cid-tfwpZdwU1g .card-box {
+
     max-width: 645px;
     margin: 0 auto 0 0;
     padding-bottom: 74px;
